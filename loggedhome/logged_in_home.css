@@ -13,7 +13,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 250px; /* Default expanded width */
+    width: 250px; 
     height: 100vh;
     background-color: #fff;
     color: #f78fb3;
@@ -30,9 +30,9 @@ body {
 }
 
 .sidebar .logo img {
-    width: 80%; /* Default size for expanded state */
-    max-width: 100px; /* Prevents over-scaling */
-    transition: width 0.3s ease-in-out; /* Smooth transition for resizing */
+    width: 80%; 
+    max-width: 100px; 
+    transition: width 0.3s ease-in-out; 
     border-radius: 10px;
 }
 
@@ -77,35 +77,35 @@ body {
     color: #fff;
 }
 
-/* Collapsed Sidebar */
+
 .sidebar.collapsed {
-    width: 60px; /* Collapsed width */
-    overflow: hidden; /* Hide content beyond the sidebar */
+    width: 60px; 
+    overflow: hidden; 
 }
 
 .sidebar.collapsed .logo img {
-    width: 40px; /* Smaller logo size for collapsed state */
+    width: 40px; 
 }
 
 .sidebar.collapsed .nav-link .icon {
-    margin-right: 0; /* Center the icon */
+    margin-right: 0; 
 }
 
 .sidebar.collapsed .nav-link span {
-    display: none; /* Hide text when collapsed */
+    display: none; 
 }
 
 .sidebar.collapsed .nav-link {
-    justify-content: center; /* Center icons */
-    padding: 10px; /* Adjust padding for collapsed state */
+    justify-content: center; 
+    padding: 10px; 
 }
 
 /* Navbar Section */
 .navbar {
     position: fixed;
     top: 0;
-    left: 250px; /* Default expanded state */
-    width: calc(100% - 250px); /* Adjust width based on sidebar */
+    left: 250px; 
+    width: calc(100% - 250px);
     background: #fff;
     z-index: 1001;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -117,7 +117,7 @@ body {
     transition: left 0.3s ease-in-out, width 0.3s ease-in-out;
 }
 
-/* Notification and Search Icons */
+
 .navbar .icon {
     font-size: 20px;
     cursor: pointer;
@@ -125,10 +125,10 @@ body {
 }
 
 .navbar .icon:hover {
-    color: #007BFF; /* Change color on hover */
+    color: #007BFF; 
 }
 
-/* Separator Style */
+
 .navbar .separator {
     color: #ddd;
     font-size: 20px;
@@ -136,17 +136,17 @@ body {
 }
 
 .navbar .user-avatar {
-    width: 40px !important; /* Ensure width is strictly applied */
-    height: 40px !important; /* Ensure height is strictly applied */
-    object-fit: cover; /* Scale image proportionally without distortion */
-    border-radius: 50%; /* Circular shape */
-    border: 2px solid #f78fb3; /* Optional border */
+    width: 40px !important; 
+    height: 40px !important; 
+    object-fit: cover; 
+    border-radius: 50%;
+    border: 2px solid #f78fb3; 
     cursor: pointer;
     transition: transform 0.3s ease;
 }
 
 .navbar .user-avatar:hover {
-    transform: scale(1.1); /* Optional zoom effect */
+    transform: scale(1.1); 
 }
 .navbar.expanded {
     left: 250px;
@@ -160,7 +160,7 @@ body {
 
 /* Main Content Styles */
 .main-content {
-    margin-left: 250px; /* Default expanded state */
+    margin-left: 250px; 
     padding: 80px 20px;
     background-color: #f4f4f4;
     flex-grow: 1;
@@ -169,7 +169,7 @@ body {
     transition: margin-left 0.3s ease-in-out;
 }
 .main-content.collapsed {
-    margin-left: 60px; /* Adjust for collapsed sidebar */
+    margin-left: 60px; 
 }
 
 
@@ -182,16 +182,16 @@ body {
     color: #333;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Ensures top alignment */
+    align-items: flex-start;
 }
 
 .user-intro {
     display: flex;
     align-items: center;
-    margin-bottom: 15px; /* Adds space below the image & title */
+    margin-bottom: 15px; 
 }
 
-/* User Image - Box Shape */
+
 .user-image {
     width: 50px;
     height: 50px;
@@ -201,7 +201,7 @@ body {
     margin-right: 10px; 
 }
 
-/* Heading Styling */
+
 .welcome-message h1 {
     font-size: 24px; 
     font-weight: normal; 
@@ -209,7 +209,7 @@ body {
     margin: 0; 
 }
 
-/* Paragraph Text */
+
 .welcome-message p {
     text-align: justify;
     font-weight: bold;
@@ -226,19 +226,17 @@ body {
 }
 
 
-
-/* Dropdown container */
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
-/* Hidden dropdown menu */
+
 .dropdown-menu {
     display: none;
     position: absolute;
-    right: 0; /* Align with the avatar */
-    top: 50px; /* Position below the avatar */
+    right: 0; 
+    top: 50px;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -247,7 +245,7 @@ body {
     width: 150px;
 }
 
-/* Dropdown menu items */
+
 .dropdown-item {
     padding: 10px 15px;
     text-align: left;

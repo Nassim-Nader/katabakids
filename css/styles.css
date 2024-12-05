@@ -1,4 +1,3 @@
-/* General body styling */
 body {
     margin: 0;
     padding: 0;
@@ -10,13 +9,11 @@ body {
     align-items: center;
 }
 
-/* Splash container styling */
 .splash-container {
     text-align: center;
 }
 
-/* Logo styling */
 .splash-image {
     width: 100%;
-    max-width: 400px; /* Adjust logo size */
+    max-width: 400px; 
 }
