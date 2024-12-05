@@ -1,4 +1,4 @@
 // Redirect to home page after 10 seconds
 setTimeout(() => {
-    window.location.href = "html/home.html"; 
+    window.location.href = "home/home.html"; 
 }, 10000); 

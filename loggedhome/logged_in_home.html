@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kataba Kids - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="logged_in_home.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <<nav class="navbar d-flex justify-content-end p-3 align-items-center">
+        <span class="icon search-icon me-3">🔍</span>
+        <span class="separator mx-2">|</span>
+        <span class="icon notification-icon me-3">🔔</span>
+        <div class="dropdown">
+            <img src="../images/user.png" alt="User Avatar" class="user-avatar" id="user-avatar">
+            <div class="dropdown-menu" id="dropdown-menu">
+                <button class="dropdown-item" id="profile-btn">Profile</button>
+                <button class="dropdown-item" id="logout-btn">Log Out</button>
+            </div>
+        </div>
+        
+
+    </nav>
+    
+    
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="logo">
+            <img src="../images/logo2.png" alt="Kataba Kids Logo">
+        </div>
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a href="#" class="nav-link active d-flex align-items-center">
+                    <span class="icon me-2">🏠</span>
+                    Accueil
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link d-flex align-items-center">
+                    <span class="icon me-2">📚</span>
+                    Cours
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link d-flex align-items-center">
+                    <span class="icon me-2">🔒</span>
+                    Mes Cours
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link d-flex align-items-center">
+                    <span class="icon me-2">👥</span>
+                    Members
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link d-flex align-items-center">
+                    <span class="icon me-2">📰</span>
+                    Fil d’actualités
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link d-flex align-items-center">
+                    <span class="icon me-2">❓</span>
+                    Support
+                </a>
+            </li>
+        </ul>
+    </aside>
+    
+
+<!-- Main Content -->
+<main class="main-content">
+    <div class="welcome-message p-4 d-flex justify-content-between align-items-center">
+        <div>
+            <div class="user-intro d-flex align-items-center">
+                <img src="path_to_user_image.png" alt="User Image" class="user-image me-3" id="user-image" />
+                <h1 id="welcome-name">ASSALAM OLAYKOM [USER NAME]</h1>
+            </div>
+            <p>
+                Bienvenue sur Kataba Kidz! <br>
+                Nous sommes ravis de vous accueillir ici et de vous offrir une expérience d'apprentissage interactive, ludique et enrichissante.
+            </p>
+            <p>
+                Notre objectif est de permettre aux enfants de découvrir et d'apprendre les histoires de l'Islam de manière amusante et éducative, en utilisant des outils modernes et des méthodes pédagogiques innovantes. Nous croyons que l'apprentissage des histoires de l'Islam est essentiel pour aider les enfants à comprendre leur foi, leur culture et leur histoire, et nous sommes fiers de contribuer à cette mission.
+            </p>
+            <p>
+                Merci de votre confiance et bonne découverte !
+            </p>
+        </div>
+        <img src="../images/ladi&bot.png" alt="Ladi and Bot Illustration" class="ladi-bot-image">
+    </div>
+</main>
+
+
+<!-- JavaScript -->
+<script src="logged_in_home.js"></script>
+</body>
+
+</html>
