@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kataba Kids - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="home2.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar d-flex justify-content-end p-3">
+        <a href="../login/login.html" class="btn btn-outline-primary me-2">Login</a>
+        <a href="#" class="btn btn-primary">Sign Up</a>
+    </nav>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="logo">
+            <img src="../images/logo2.png" alt="Kataba Kids Logo">
+        </div>
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a href="#" class="nav-link active d-flex align-items-center">
+                    <span class="icon me-2">🏠</span>
+                    Accueil
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link d-flex align-items-center">
+                    <span class="icon me-2">📚</span>
+                    Cours
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link d-flex align-items-center">
+                    <span class="icon me-2">🔒</span>
+                    Mes Cours
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link d-flex align-items-center">
+                    <span class="icon me-2">👥</span>
+                    Members
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link d-flex align-items-center">
+                    <span class="icon me-2">📰</span>
+                    Fil d’actualités
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link d-flex align-items-center">
+                    <span class="icon me-2">❓</span>
+                    Support
+                </a>
+            </li>
+        </ul>
+    </aside>
+    
+
+<!-- Main Content -->
+<main class="main-content">
+    <div class="welcome-message p-4 d-flex justify-content-between align-items-center">
+        <div>
+            <h1 style="color: #007BFF;">Donnez à vos enfants les modèles qu’ils méritent</h1>
+            <p>
+                On a conçu la plateforme <strong>Kataba Kidz</strong> pour leur offrir une alternative éthique et profitable. 
+                Vos enfants vont pouvoir se détendre en apprenant leur religion et l’histoire des hommes et des femmes qui leur serviront de modèles.
+            </p>
+            <div class="audio-container">
+                <div class="mini-lady">
+                    <img src="../images/miniladi.png" alt="Mini Lady" />
+                </div>
+                <div class="audio-controls">
+                    <button class="btn audio-btn play-btn">▶️</button>
+                    <button class="btn audio-btn rewind-btn">⏪</button>    
+                    <button class="btn audio-btn forward-btn">⏩</button>
+                    <div class="progress-bar-container">
+                        <input type="range" class="progress-bar" value="0" max="100">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <img src="../images/ladi.png" alt="Character illustration" style="max-width: 400px; margin-left: 20px;">
+    </div>
+</main>
+
+
+<!-- JavaScript -->
+<script src="home2.js"></script>
+</body>
+
+</html>
