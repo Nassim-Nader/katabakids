@@ -102,21 +102,31 @@ body {
     z-index: 0; 
 }
 .welcome-message {
-    background: url('../images/background2.png') no-repeat center center / cover;
+    background: url('../images/background2pink.png') no-repeat center center / cover;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: 1px solid #ddd;
     color: #333;
+    margin-bottom: 40px;
+}
+.welcome-message h1 {
+    font-size: 3rem; 
+    font-weight: bold;
+}
+
+.welcome-message p {
+    font-size: 1.5rem; 
+    line-height: 1.6; 
 }
 strong {
-    color: #f78fb3;
+    color: blue;
     font-weight: bold;
 }
 
 .audio-container {
     position: relative;
-    background: #ffe3f1;
+    background: url('../images/background2.png') no-repeat center center / cover;;
     border-radius: 10px;
     padding: 20px;
     display: flex;
